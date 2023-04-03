@@ -1,40 +1,26 @@
-using Stipple, StippleUI
+using FileIO, ImageIO, Colors
+using GenieFramework
+@genietools
 
-@vars Inverter begin
-  process = false
-  input = ""
-  output::String, READONLY
+const IMGPATH = "public/demo.png"
+const BASEURL = "/demo.png"
+
+@app begin
+    @in refresh = false
+    @out img = rand(RGB, 100, 100)
+    @out imageurl = "/demo.png"
+    @onchange refresh begin
+        img = rand(RGB, 100, 100)
+        # add an (invalid) anchor to the imagepath in order to trigger a reload in the Quasar/Vue backend
+        save(IMGPATH, img)
+        imageurl = "$BASEURL#$(Base.time())"
+    end
 end
-
-function handlers(model)
-  on(model.input) do input
-      model.output[] = input |> reverse
-  end
-
-  onbutton(model.process) do
-      model.output[] = model.output[] |> reverse
-  end
-
-  model
-end
-
+        
 function ui()
-  row(cell(class = "st-module", [
-    textfield(class = "q-my-md", "Input", :input, hint = "Please enter some words", @on("keyup.enter", "process = true"))
-
-    btn(class = "q-my-md", "Action!", @click(:process), color = "primary")
-    
-    card(class = "q-my-md", [
-      card_section(h2("Output"))
-      card_section("Variant 1: {{ output }}")
-      card_section(["Variant 2: ", span(class = "text-red", @text(:output))])
-    ])
-  ]))
+    [button("Refresh", @click("refresh = !refresh"))
+    imageview(src=:imageurl, spinnercolor="white", style="height: 140px; max-width: 150px")]
 end
 
-route("/") do
-  model = Inverter |> init |> handlers
-  page(model, ui()) |> html
-end
-
-Genie.isrunning(:webserver) || up()
+@page("/", ui)
+Server.up()
