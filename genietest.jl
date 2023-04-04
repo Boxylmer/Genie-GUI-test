@@ -1,26 +1,30 @@
-using FileIO, ImageIO, Colors
-using GenieFramework
-@genietools
+using Stipple, Stipple.ReactiveTools
+using StippleUI
 
-const IMGPATH = "public/demo.png"
-const BASEURL = "/demo.png"
+# @appname Inverter
 
-@app begin
-    @in refresh = false
-    @out img = rand(RGB, 100, 100)
-    @out imageurl = "/demo.png"
-    @onchange refresh begin
-        img = rand(RGB, 100, 100)
-        # add an (invalid) anchor to the imagepath in order to trigger a reload in the Quasar/Vue backend
-        save(IMGPATH, img)
-        imageurl = "$BASEURL#$(Base.time())"
-    end
+@app ModelVars begin
+    myp = false
 end
-        
+
 function ui()
-    [button("Refresh", @click("refresh = !refresh"))
-    imageview(src=:imageurl, spinnercolor="white", style="height: 140px; max-width: 150px")]
+  row(cell(class = "st-module", [
+    textfield(class = "q-my-md", "Input", :input, hint = "I'm afraid of what the internet will put here.", @on("keyup.enter", "myp = true"))
+    textfield(class = "q-my-md", "Input", :input, hint = "Please enter some words", @on("keyup.enter", "process = true"))
+
+    btn(class = "q-my-md", "Action!", @click(:process), color = "red")
+    
+    card(class = "q-my-md", [
+      card_section(h2("Output"))
+      card_section("Variant 1: {{ output }}")
+      card_section(["Variant 2: ", span(class = "text-red", @text(:output))])
+    ])
+  ]))
 end
 
-@page("/", ui)
-Server.up()
+route("/") do
+  model = @init
+  page(model, ui()) # |> html
+end
+
+Genie.isrunning(:webserver) || up()
