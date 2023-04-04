@@ -2,7 +2,7 @@
 
 julia_version = "1.8.5"
 manifest_format = "2.0"
-project_hash = "076406a1996c45e1940fe1615b7470c280ebc526"
+project_hash = "38478cabfaae0ce5f13aa92864acc193771e745c"
 
 [[deps.AbstractFFTs]]
 deps = ["ChainRulesCore", "LinearAlgebra"]
@@ -825,6 +825,12 @@ deps = ["Dates", "FilePathsBase", "Genie", "GenieSession", "GenieSessionFileSess
 git-tree-sha1 = "a5070593027af1fd316676be7c106624e258a3eb"
 uuid = "4acbeb90-81a0-11ea-1966-bdaff8155998"
 version = "0.26.3"
+
+[[deps.StippleLatex]]
+deps = ["Genie", "Stipple"]
+git-tree-sha1 = "eebb2b4c5a5f28c0f36e5086d74875a345f81b8a"
+uuid = "8706c442-30ce-4f68-b407-b81ebf148be9"
+version = "0.5.2"
 
 [[deps.StipplePlotly]]
 deps = ["DataFrames", "Genie", "Requires", "Stipple"]

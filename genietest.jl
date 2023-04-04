@@ -1,8 +1,6 @@
 using Stipple, Stipple.ReactiveTools
 using StippleUI
 
-# @appname Inverter
-
 @app ModelVars begin
     myp = false
 end
