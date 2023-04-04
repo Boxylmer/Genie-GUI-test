@@ -4,8 +4,8 @@ include("model.jl")
 
 @genietools 
 
-
-
+model = Model()
+startmodel!(model)
 
 @handlers begin
     @in x = 1.0
@@ -13,8 +13,10 @@ include("model.jl")
     @out u_x = []
     @out u_y = []
     @in start = false
+    @out model
 
     @onchange start begin
+        y+=4
         println(start)
     end
     
@@ -64,7 +66,7 @@ function ui()
     [
     row([
         cell(class="st-module", bignumber("x", :x ) )
-        cell(class="st-module", style="color: red;", [
+        cell(class="st-module", style="color: red;", [  # color doesnt' work :(
                 h6("y1")
                 textfield("", :y)
             ])
@@ -72,7 +74,7 @@ function ui()
             h6("ux1")
             slider(0:0.01:0.1, :u_x ; label=true)
         ])
-        btn("Start!", percentage=45.0, flat=true, ripple=false, style="color: red;", loading=true, @click("start = !start"))
+        btn("Start!", percentage=:y, flat=true, ripple=false, style="color: red;", loading=mymodel.loading, @click("start = !start"))
     ])
     row([
         # cell(class="st-module", plot(:solplot))
