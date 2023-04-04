@@ -676,3 +676,198 @@
 └ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
 ┌ Info: 2023-04-04 15:00:40 Autoreloading
 └ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:05:22 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:161
+┌ Info: 2023-04-04 15:05:26 Watching ["C:\\git\\Genie-GUI-test"]
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:19
+┌ Info: 2023-04-04 15:05:28 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers C:\Users\Will\.julia\packages\HTTP\z8l0i\src\Servers.jl:366
+┌ Info: 2023-04-04 15:13:56 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:13:59 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:14:01 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:14:03 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:14:05 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:14:11 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:14:13 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:14:17 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:14:19 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:14:22 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:14:53 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:15:20 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:15:22 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:15:24 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:15:27 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:15:29 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:15:32 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:15:34 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:15:36 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:15:50 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:15:53 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:15:58 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:16:03 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:16:07 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:16:10 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:16:14 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:16:16 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:16:20 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:16:23 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:16:26 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:16:30 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:17:25 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:161
+┌ Info: 2023-04-04 15:17:30 Watching ["C:\\git\\Genie-GUI-test"]
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:19
+┌ Info: 2023-04-04 15:17:32 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers C:\Users\Will\.julia\packages\HTTP\z8l0i\src\Servers.jl:366
+┌ Info: 2023-04-04 15:24:26 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:24:28 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:24:30 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-04 15:24:37 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Error: 2023-04-04 15:24:52 UndefVarError: ismodelloading not defined
+│ Stacktrace:
+│   [1] ui()
+│     @ Main c:\git\Genie-GUI-test\genietest2.jl:66
+│   [2] html!(data::typeof(ui); context::Module, status::Int64, headers::Dict{String, String}, layout::String, forceparse::Bool, noparse::Bool, vars::Base.Pairs{Symbol, var"##Main_ReactiveModel!#312", Tuple{Symbol}, NamedTuple{(:model,), Tuple{var"##Main_ReactiveModel!#312"}}})
+│     @ Genie.Renderer.Html C:\Users\Will\.julia\packages\Genie\SKepC\src\renderers\Html.jl:567
+│   [3] (::Stipple.Pages.var"#5#6"{typeof(ui), String, Module, Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}}})()
+│     @ Stipple.Pages C:\Users\Will\.julia\packages\Stipple\pgem3\src\Pages.jl:52
+│   [4] run_route(r::Genie.Router.Route)
+│     @ Genie.Router C:\Users\Will\.julia\packages\Genie\SKepC\src\Router.jl:535
+│   [5] route_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Router C:\Users\Will\.julia\packages\Genie\SKepC\src\Router.jl:173
+│   [6] handle_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:278
+│   [7] (::Genie.Server.var"#29#30"{HTTP.Messages.Request, HTTP.Messages.Response})()
+│     @ Genie.Server C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\macros.jl:123
+│   [8] #invokelatest#2
+│     @ .\essentials.jl:729 [inlined]
+│   [9] invokelatest
+│     @ .\essentials.jl:726 [inlined]
+│  [10] #153
+│     @ C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\remotecall.jl:425 [inlined]
+│  [11] run_work_thunk(thunk::Distributed.var"#153#154"{Genie.Server.var"#29#30"{HTTP.Messages.Request, HTTP.Messages.Response}, Tuple{}, Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}}}, print_error::Bool)
+│     @ Distributed C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\process_messages.jl:70
+│  [12] #remotecall_fetch#158
+│     @ C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\remotecall.jl:450 [inlined]
+│  [13] remotecall_fetch
+│     @ C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\remotecall.jl:449 [inlined]
+│  [14] #remotecall_fetch#162
+│     @ C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\remotecall.jl:492 [inlined]
+│  [15] remotecall_fetch
+│     @ C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\remotecall.jl:492 [inlined]
+│  [16] setup_http_listener(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:305
+│  [17] setup_http_listener
+│     @ C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:304 [inlined]
+│  [18] (::HTTP.Handlers.var"#1#2"{typeof(Genie.Server.setup_http_listener)})(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection{Sockets.TCPSocket}})
+│     @ HTTP.Handlers C:\Users\Will\.julia\packages\HTTP\z8l0i\src\Handlers.jl:58
+│  [19] setup_http_streamer(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:294
+│  [20] (::Genie.Server.var"#7#14")(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:121
+│  [21] #invokelatest#2
+│     @ .\essentials.jl:729 [inlined]
+│  [22] invokelatest
+│     @ .\essentials.jl:726 [inlined]
+│  [23] handle_connection(f::Function, c::HTTP.ConnectionPool.Connection{Sockets.TCPSocket}, listener::HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, readtimeout::Int64, access_log::Nothing)
+│     @ HTTP.Servers C:\Users\Will\.julia\packages\HTTP\z8l0i\src\Servers.jl:447
+│  [24] (::HTTP.Servers.var"#16#17"{Genie.Server.var"#7#14", HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, Set{HTTP.ConnectionPool.Connection}, Int64, Nothing, Base.Semaphore, HTTP.ConnectionPool.Connection{Sockets.TCPSocket}})()
+│     @ HTTP.Servers .\task.jl:484
+│ 
+└ @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:317
+┌ Error: 2023-04-04 15:25:13 UndefVarError: ismodelloading not defined
+│ Stacktrace:
+│   [1] ui()
+│     @ Main c:\git\Genie-GUI-test\genietest2.jl:66
+│   [2] html!(data::typeof(ui); context::Module, status::Int64, headers::Dict{String, String}, layout::String, forceparse::Bool, noparse::Bool, vars::Base.Pairs{Symbol, var"##Main_ReactiveModel!#429", Tuple{Symbol}, NamedTuple{(:model,), Tuple{var"##Main_ReactiveModel!#429"}}})
+│     @ Genie.Renderer.Html C:\Users\Will\.julia\packages\Genie\SKepC\src\renderers\Html.jl:567
+│   [3] (::Stipple.Pages.var"#5#6"{typeof(ui), String, Module, Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}}})()
+│     @ Stipple.Pages C:\Users\Will\.julia\packages\Stipple\pgem3\src\Pages.jl:52
+│   [4] run_route(r::Genie.Router.Route)
+│     @ Genie.Router C:\Users\Will\.julia\packages\Genie\SKepC\src\Router.jl:535
+│   [5] route_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Router C:\Users\Will\.julia\packages\Genie\SKepC\src\Router.jl:173
+│   [6] handle_request(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:278
+│   [7] (::Genie.Server.var"#29#30"{HTTP.Messages.Request, HTTP.Messages.Response})()
+│     @ Genie.Server C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\macros.jl:123
+│   [8] #invokelatest#2
+│     @ .\essentials.jl:729 [inlined]
+│   [9] invokelatest
+│     @ .\essentials.jl:726 [inlined]
+│  [10] #153
+│     @ C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\remotecall.jl:425 [inlined]
+│  [11] run_work_thunk(thunk::Distributed.var"#153#154"{Genie.Server.var"#29#30"{HTTP.Messages.Request, HTTP.Messages.Response}, Tuple{}, Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}}}, print_error::Bool)
+│     @ Distributed C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\process_messages.jl:70
+│  [12] #remotecall_fetch#158
+│     @ C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\remotecall.jl:450 [inlined]
+│  [13] remotecall_fetch
+│     @ C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\remotecall.jl:449 [inlined]
+│  [14] #remotecall_fetch#162
+│     @ C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\remotecall.jl:492 [inlined]
+│  [15] remotecall_fetch
+│     @ C:\Users\Will\AppData\Local\Programs\Julia-1.8.5\share\julia\stdlib\v1.8\Distributed\src\remotecall.jl:492 [inlined]
+│  [16] setup_http_listener(req::HTTP.Messages.Request, res::HTTP.Messages.Response)
+│     @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:305
+│  [17] setup_http_listener
+│     @ C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:304 [inlined]
+│  [18] (::HTTP.Handlers.var"#1#2"{typeof(Genie.Server.setup_http_listener)})(stream::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection{Sockets.TCPSocket}})
+│     @ HTTP.Handlers C:\Users\Will\.julia\packages\HTTP\z8l0i\src\Handlers.jl:58
+│  [19] setup_http_streamer(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:294
+│  [20] (::Genie.Server.var"#7#14")(http::HTTP.Streams.Stream{HTTP.Messages.Request, HTTP.ConnectionPool.Connection{Sockets.TCPSocket}})
+│     @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:121
+│  [21] #invokelatest#2
+│     @ .\essentials.jl:729 [inlined]
+│  [22] invokelatest
+│     @ .\essentials.jl:726 [inlined]
+│  [23] handle_connection(f::Function, c::HTTP.ConnectionPool.Connection{Sockets.TCPSocket}, listener::HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, readtimeout::Int64, access_log::Nothing)
+│     @ HTTP.Servers C:\Users\Will\.julia\packages\HTTP\z8l0i\src\Servers.jl:447
+│  [24] (::HTTP.Servers.var"#16#17"{Genie.Server.var"#7#14", HTTP.Servers.Listener{Nothing, Sockets.TCPServer}, Set{HTTP.ConnectionPool.Connection}, Int64, Nothing, Base.Semaphore, HTTP.ConnectionPool.Connection{Sockets.TCPSocket}})()
+│     @ HTTP.Servers .\task.jl:484
+│ 
+└ @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:317
+┌ Info: 2023-04-04 15:26:01 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:161
+┌ Info: 2023-04-04 15:26:05 Watching ["C:\\git\\Genie-GUI-test"]
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:19
+┌ Info: 2023-04-04 15:26:07 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers C:\Users\Will\.julia\packages\HTTP\z8l0i\src\Servers.jl:366

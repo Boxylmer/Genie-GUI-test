@@ -13,7 +13,8 @@ startmodel!(model)
     @out u_x = []
     @out u_y = []
     @in start = false
-    @out model
+    @out ismodelloading=model.loading
+    @out modelpercentage=model.myidx
 
     @onchange start begin
         y+=4
@@ -74,7 +75,7 @@ function ui()
             h6("ux1")
             slider(0:0.01:0.1, :u_x ; label=true)
         ])
-        btn("Start!", percentage=:y, flat=true, ripple=false, style="color: red;", loading=mymodel.loading, @click("start = !start"))
+        btn("Start!", percentage=:modelpercentage, flat=true, ripple=false, style="color: red;", loading=:ismodelloading, @click("start = !start"))
     ])
     row([
         # cell(class="st-module", plot(:solplot))
