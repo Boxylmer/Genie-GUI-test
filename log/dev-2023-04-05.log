@@ -1,0 +1,7 @@
+┌ Info: 2023-04-05 11:41:44 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server C:\Users\Will Laptop\.julia\packages\Genie\SKepC\src\Server.jl:161
+┌ Info: 2023-04-05 11:41:47 Watching ["C:\\git\\Genie-GUI-test"]
+└ @ GenieAutoReload C:\Users\Will Laptop\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:19
+┌ Info: 2023-04-05 11:41:50 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers C:\Users\Will Laptop\.julia\packages\HTTP\z8l0i\src\Servers.jl:366
