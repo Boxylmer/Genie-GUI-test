@@ -1,4 +1,4 @@
-mutable struct Model 
+mutable struct Model
     myidx::Int64
     myseries::Vector{Float64}
     loading::Bool

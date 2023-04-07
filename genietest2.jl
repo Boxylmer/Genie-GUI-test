@@ -13,12 +13,17 @@ model = Model()
     @out u_y = []
     @in start = false
     @out model = Model()  # doesn't seem to be updating for some reason
+    @in ping = false
     
     @onchange start begin
         y+=4  # this DOES work, but isn't contained
         println(start)
     end
-    
+    @onchange ping begin
+        println("Ping!")
+        
+    end
+
 end
 startmodel!(model)
 
@@ -38,7 +43,7 @@ function ui()
             h6("ux1")
             slider(0:0.01:0.1, :u_x ; label=true)
         ])
-        btn("Start!", percentage=R"model.myidx", flat=true, ripple=false, style="color: red;", loading=R"model.loading", @click("start = !start"))
+        btn("Start!", percentage=R"y", flat=true, ripple=false, style="color: red;", loading=R"model.loading", @click("start = !start"))
     ])
     row([
         # cell(class="st-module", plot(:solplot))
@@ -59,3 +64,14 @@ end
 
 @page("/", ui, LAYOUT)
 Server.isrunning() || Server.up()
+
+# pingrate = 0.5
+# Threads.@spawn begin
+#     while true
+#         if !model.running
+#             break
+#         end
+#         ping = true
+#         sleep(pingrate)
+#     end
+# end

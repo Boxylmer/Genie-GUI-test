@@ -1,0 +1,20 @@
+┌ Info: 2023-04-07 00:36:47 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:161
+┌ Info: 2023-04-07 00:36:52 Watching ["C:\\git\\Genie-GUI-test"]
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:19
+┌ Info: 2023-04-07 00:36:53 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers C:\Users\Will\.julia\packages\HTTP\z8l0i\src\Servers.jl:366
+┌ Info: 2023-04-07 00:39:57 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-07 00:39:59 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-07 00:40:03 Autoreloading
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:22
+┌ Info: 2023-04-07 09:39:45 
+│ Web Server starting at http://127.0.0.1:8000 
+└ @ Genie.Server C:\Users\Will\.julia\packages\Genie\SKepC\src\Server.jl:161
+┌ Info: 2023-04-07 09:39:49 Watching ["C:\\git\\Genie-GUI-test"]
+└ @ GenieAutoReload C:\Users\Will\.julia\packages\GenieAutoReload\IuBCb\src\GenieAutoReload.jl:19
+┌ Info: 2023-04-07 09:39:51 Listening on: 127.0.0.1:8000, thread id: 1
+└ @ HTTP.Servers C:\Users\Will\.julia\packages\HTTP\z8l0i\src\Servers.jl:366
